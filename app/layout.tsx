@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	title: process.env.NEXT_PUBLIC_NAME,
 	description: "",
+	manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
